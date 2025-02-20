@@ -7,7 +7,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "*/10 * * * *" # 每天的 0:00 执行
+    - cron: "23 0 * * *" # 每天的 0:23 执行
 
 jobs:
   autogreen:
